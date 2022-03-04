@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="=eng">
+<head>
+    <meta charset="UTF-8"> 
+    <meta http-equiv= “X-UA-Compatible” content= “IE=edge”> 
+    <meta name= “viewport” content= “width=device-width, initial-scale=1.0” > 
+    <title>Pedidos Royal Cakes</title>
+</head>
+    <h1> Realiza tu pedido</h1>
+    <form>
+        <p>Por favor indicanos la información de tu pedido</p>
+        <label for="nombre"><input type="text" id="nombre" placeholder="Ingresa tu nombre"></label><br><br>
+        <label for="telefono"><input type="tel" id="telefono" maxlength="10" placeholder="Ingresa tu teléfono"></label><br><br>
+        <label for="email"><input type="email" id="email" maxlength="10" placeholder="Ingresa tu email"></label><br><br>
+        <h3>Selecciona el(los) sabor(es) de tu pastel</h3>
+        <ul>
+            <label for="chocolate"><input type="checkbox" id="chocolate" name="sabores" value="chocolate">Chocolate</label><br>
+            <label for="vainilla"><input type="checkbox" id="vainilla" name="sabores" value="vainilla">Vainilla</label><br>
+            <label for="fresa"><input type="checkbox" id="fresa" name="sabores" value="fresa">Fresa</label><br>
+            <label for="tres leches"><input type="checkbox" id="tres leches" name="sabores" value="tres leches">Tres Leches</label><br>
+        </ul>
+        <h3>Selecciona el(los) adorno(os) de tu pastel</h3>
+        <ul>
+            <label for="laminas chocolate"><input type="checkbox" id="laminas chocolate" name="adornos" value="laminas chocolate">Láminas de Chocolate</label><br>
+            <label for="chispas"><input type="checkbox" id="chispas" name="adornos" value="chispas">Chispas dulces</label><br>
+            <label for="frutas"><input type="checkbox" id="frutas" name="adornos" value="frutas">Fruta picada</label><br>
+            <label for="almendras"><input type="checkbox" id="almendras" name="adornos" value="almendras">Almendras</label><br>
+            <label for="nuez"><input type="checkbox" id="nuez" name="adornos" value="nuez">Nuez</label><br>
+            <label for="velas"><input type="checkbox" id="velas" name="adornos" value="velas">Velas</label>
+        </ul>
+        <input type="reset">
+        <input type="submit">
+    </form>
+</html>
